@@ -1,0 +1,117 @@
+* {
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    height: 100%;
+}
+
+body {
+    background-image: linear-gradient(to right, #f4b3db, #fdeff8);
+    background-attachment: fixed;
+
+}
+
+#cima {
+    background-color: #f1a897;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%; /* Define a largura */
+    height: 20vh; /* Define a altura */
+    margin: auto; /* Centraliza o elemento horizontalmente */
+}
+
+#baixo {
+    margin: auto;
+    padding: 20px;
+    display: inline-block;/*Centraliza os elementos*/
+}
+
+#botoes {
+    display: flex; /* Torna o parágrafo um container flexível */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+#botoes a{
+    text-decoration: none; /* Remove a decoração padrão do link */
+}
+
+button {
+
+    width: 350px;
+    background-color:transparent;
+    font-size: 40px;
+    color: #bc7261;
+
+    flex: 1; /* Faz com que os botões ocupem o mesmo espaço */
+    margin: 0 5px; /* Adiciona margem entre os botões */
+
+}
+
+.title {
+    font-family: "Dancing Script", cursive;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+}
+
+#MonikaB { 
+    background: 
+        linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), /* Gradiente */
+        url(Monika.webp) center center / cover; /* Imagem de fundo, tambem resume o comando de baixo, + o gradiente */
+    /* Outros estilos adicionais para o botão, se necessário */
+
+/*
+    background-image: url(Monika.webp); // Define a imagem de fundo
+    background-size: cover; // Faz com que a imagem de fundo cubra todo o botão 
+    background-position: center; // Centraliza a imagem de fundo no botão 
+    //Outros estilos adicionais para o botão, se necessário 
+*/
+}
+
+#SayoriB {
+    background: 
+        linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), /* Gradiente */
+        url(Sayori.webp) center center / cover; /* Imagem de fundo, tambem resume o comando de baixo, + o gradiente */
+}
+
+#NatsukiB {
+    background: 
+        linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), /* Gradiente */
+        url(Natsuki.png) center center / cover; /* Imagem de fundo, tambem resume o comando de baixo, + o gradiente */
+}
+
+#YuriB {
+    background: 
+        linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.2)), /* Gradiente */
+        url(Yuri.webp) center center / cover; /* Imagem de fundo, tambem resume o comando de baixo, + o gradiente */
+}
+
+.per {
+    background-color: #f1a897;
+    width: 300px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 80%; /* Define a largura */
+    height: 20vh; /* Define a altura */
+    margin: auto; /* Centraliza o elemento horizontalmente */
+}
+
+.persona {
+
+}
+
+#Mp {
+    background-repeat: no-repeat;/*Evita da imagem se repetir*/
+    background-position: right center;
+    padding-left: 30px;
+}
+
+#Mt {
+    text-align: center;
+    color: white;
+}
